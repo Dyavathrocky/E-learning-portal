@@ -1,0 +1,40 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "maths",
+    "slug": "maths"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "maths1",
+    "slug": "maths1",
+    "overview": "hi this is maths 1",
+    "created": "2020-11-30T06:11:48.300Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "maths 1.1",
+    "description": "maths 1.1"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "maths 1.2",
+    "description": "maths 1.2"
+  }
+}
+]
